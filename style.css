@@ -1,0 +1,129 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color Fondo */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #031424;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex; /* flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centrado horizontalmente de los ítems */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Section Styling - Global Sobre mi*/
+section {
+    padding: 20px;
+    margin: 0 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Headings - Global Tag Selector Titulos*/
+h1, h2 {
+    color: #3276b9;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Tamaño de los titulos*/
+h2 {
+    font-size: 2em;
+}
+
+/* Parrafo - Global Tag Selector */
+p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* "Sobre mi" Section Specific Styles ID Selector */
+#about-me { 
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+#about-me ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#about-me ul li {
+    margin-bottom: 5px;
+}
+
+#about-me img {
+    display: block;
+    margin: 15px auto;
+    border: 2cqh solid #031424;
+    border-radius: 50%; /* Redondeo de la imagen */
+}
+
+/* Skills Section Class Selector */
+.skills-list {
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Contacto y Redes Class Selector  */
+.contact-links a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+/* Efectos hover texto RRSS */
+.contact-links a:hover {
+    color: #2980b9; 
+    text-decoration: underline;
+}
+
+/* Pie de Pagina Styles */
+footer {
+    background-color: #031424; 
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+    display: flex; /* Añadido para flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra horizontalmente los ítems */
+}
+
+footer p {
+    margin: 5px 0;
+    color: #ccc;
+}
